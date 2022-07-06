@@ -8,6 +8,11 @@ namespace Calculater
 {
     public class CalcFunc
     {
+        private Validation val { get; set; }
+        public CalcFunc()
+        {
+            val = new Validation();
+        }
         public int Sum(int value1, int value2)
         {
             return value1 + value2;
@@ -37,11 +42,34 @@ namespace Calculater
             }
             return resuft;
         }
-
-        public int Sum(String str)
+        public bool isCanSum(string str)
         {
-        //  Xu ly dieu kien
+
+            if (val.isNumber(str))
+                return true;
+            return false;
+        }
+        //public int Sum(String str)
+        //{
+        //    if (isCanSum(str))
+        //    {
+        //        return 1;
+        //    }
+        //    return -1;
+        //}
+
+        public int calcAll(string str)
+        {
+            for (int i = 0; i < str.Length; i++)
+            {
+                int j = i + 1;
+               
+
+                        
+            }
+
             return -1;
         }
+
     }
 }

@@ -76,6 +76,7 @@
             this.sub.TabIndex = 2;
             this.sub.Text = "-";
             this.sub.UseVisualStyleBackColor = true;
+            this.sub.Click += new System.EventHandler(this.sub_Click);
             // 
             // divis
             // 
@@ -85,6 +86,7 @@
             this.divis.TabIndex = 3;
             this.divis.Text = "*";
             this.divis.UseVisualStyleBackColor = true;
+            this.divis.Click += new System.EventHandler(this.divis_Click);
             // 
             // button5
             // 
@@ -134,6 +136,7 @@
             this.three.TabIndex = 8;
             this.three.Text = "3";
             this.three.UseVisualStyleBackColor = true;
+            this.three.Click += new System.EventHandler(this.three_Click);
             // 
             // zero
             // 
@@ -153,6 +156,7 @@
             this.fire.TabIndex = 10;
             this.fire.Text = "5";
             this.fire.UseVisualStyleBackColor = true;
+            this.fire.Click += new System.EventHandler(this.fire_Click);
             // 
             // six
             // 
@@ -162,6 +166,7 @@
             this.six.TabIndex = 11;
             this.six.Text = "6";
             this.six.UseVisualStyleBackColor = true;
+            this.six.Click += new System.EventHandler(this.six_Click);
             // 
             // seven
             // 
@@ -171,6 +176,7 @@
             this.seven.TabIndex = 12;
             this.seven.Text = "7";
             this.seven.UseVisualStyleBackColor = true;
+            this.seven.Click += new System.EventHandler(this.seven_Click);
             // 
             // eight
             // 
@@ -180,6 +186,7 @@
             this.eight.TabIndex = 13;
             this.eight.Text = "8";
             this.eight.UseVisualStyleBackColor = true;
+            this.eight.Click += new System.EventHandler(this.eight_Click);
             // 
             // nine
             // 
@@ -189,6 +196,7 @@
             this.nine.TabIndex = 14;
             this.nine.Text = "9";
             this.nine.UseVisualStyleBackColor = true;
+            this.nine.Click += new System.EventHandler(this.nine_Click);
             // 
             // four
             // 
@@ -198,6 +206,7 @@
             this.four.TabIndex = 15;
             this.four.Text = "4";
             this.four.UseVisualStyleBackColor = true;
+            this.four.Click += new System.EventHandler(this.four_Click);
             // 
             // button19
             // 
@@ -207,12 +216,13 @@
             this.button19.TabIndex = 18;
             this.button19.Text = "DEL";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // textinput
             // 
-            this.textinput.Location = new System.Drawing.Point(12, 50);
+            this.textinput.Location = new System.Drawing.Point(12, 12);
             this.textinput.Name = "textinput";
-            this.textinput.Size = new System.Drawing.Size(345, 98);
+            this.textinput.Size = new System.Drawing.Size(354, 98);
             this.textinput.TabIndex = 19;
             this.textinput.Text = "";
             this.textinput.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);

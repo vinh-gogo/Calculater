@@ -23,5 +23,20 @@ namespace TestCalc
             Assert.IsTrue(resuft2);
 
         }
+        [TestMethod]
+        public void Testisdigit()
+        {
+            Calculater.Validation strisNuber = new Calculater.Validation();
+            char a = '0';
+            bool resuft1 = strisNuber.isDigit(a);
+            Assert.IsTrue(resuft1);
+            char b = '+';
+            bool resuft2 = strisNuber.isDigit(b);
+            Assert.IsFalse(resuft2);
+
+
+        }
+        
+
     }
 }

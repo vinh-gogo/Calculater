@@ -17,12 +17,20 @@ namespace Calculater
             return false;
         }
         
-        public bool isCanSum(string str)
+        public bool isDigit(char x)
         {
-            if(isNumber(str))
+            if(x>=48 && x<=57)
                 return true;
             return false;
         }
+        public string[] slpit(string str)
+        {
+            string[] strArr = new string[str.Length];
+            return strArr;
+
+        }
+
+      
         
     }
 }
