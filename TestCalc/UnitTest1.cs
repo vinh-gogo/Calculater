@@ -8,8 +8,11 @@ namespace TestCalc
         {
             Calculater.CalcFunc calc = new Calculater.CalcFunc();
             List<int> a = new List<int> { 1, 2, 3 };
+            List<int> b = new List<int> { 4, 5, 6 };
             int resuft = calc.Sum(a);
+            int resuft2 = calc.Sum(b);
             Assert.AreEqual(6, resuft);
+            Assert.AreEqual(15, resuft2);
         }
         [TestMethod]
         public void TestisNumber()
